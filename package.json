@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "bulma": "^0.9.4",
+    "sass": "^1.67.0"
+  },
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url main.scss main.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  }
+
+}
