@@ -1,8 +1,11 @@
-$primary: #FF5500;
-$info: #86E2E5;
+$primary: #000000;
+$info: #CCCCCC;
 
-$family-serif: "Times", serif;
-$family-primary: $family-serif;
 
+// $family-serif: "Georgia", serif;
+// $family-primary: $family-serif;
+body {
+  background-color: #EEEEEE;
+}
 @import "node_modules/bulma/bulma.sass";
 
